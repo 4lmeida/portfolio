@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --background-color-primary:  #09090b;
+    --backgronud-color-secundary: #040405;
+
+    --border-color-blue: #00a3ff;
+    --border-color-red-light: #e51d37
+    --border-color-green: #a6fb98;
+    --border-color-red: #ff3a5e;
+
+    --font-text-white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    font-size: 62.5%;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+header {
+    background-color: var(--backgronud-color-secundary);
+    color: var(--font-text-one);
+    border-bottom: 1px solid var(--background-color-primary);
+    width: 100%;
+    padding: 0 50px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+nav h1 {
+    font-size: 2.4rem;
+    color: var(--font-text-white);
+    text-transform: uppercase;
+}
+
+nav span {
+    color: var(--border-color-blue);
+}
+
+li {
+    font-size: 1.8rem;
+    color: var(--font-text-white);
+    font-weight: 400;
+}
+
+.grid-layout {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-left: 48px;
+}
+
+#s-home{
+    background-color: var(--backgronud-color-secundary);
+    padding: 0 50px;
+    position: relative;
+}
+
+#home {
+    padding: 200px 0;
+    display: flex;
+}
+
+#home-cotainer-text {
+    width: 100%;
+    max-width: 665px;
+}
+
+.small-text {
+    font-size: 1.6rem;
+    color: var(--border-color-blue);
+    margin-bottom: 1rem;
+}
+
+.title-text {
+    font-size: 5rem;
+    color: var(--font-text-white);
+}
+
+.aux-text {
+    font-size: 5rem;
+    color: var(--font-text-white);
+    margin: 1rem 0;
+}
+
+.aux-text span {
+    color: var(--border-color-blue);
+}
+
+.description-text {
+    font-size: 1.6rem;
+    color: var(--font-text-white);
+    line-height: 140%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+
+}
+
+.lambda-logo {
+    width: 400px;
+    height: 400px;
+    filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
+    position: absolute;
+    right: 295px;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+}
+
+.four-logo {
+    color: var(--border-color-blue);
+    font-size: 55rem;
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.btn-resumo {
+    display: inline-block;
+    font-size: 1.6rem;
+    color: var(--border-color-blue);
+    cursor: pointer;
+    border: 1px solid var(--border-color-blue);
+    padding: 1.6rem 3.2rem;
+    margin-top: 32px;
+    border-radius: 1rem;
+}
+
+.container-about {
+    display: flex;
+}
+
+.content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-profile {
+    width: 380px;
+    max-width: 100%;
+    height: auto;
+}
+
+#s-about {
+    background-color: var(--backgronud-color-secundary);
+    padding: 200px 0;
+}
+
+.content-about {
+
+}
+
+.content-about h4 {
+    font-size: 1.6rem;
+}
+
+.content-about h2 {
+    font-size: 3.6rem;
+}
+
+#projects {
+    background-color: var(--background-color-primary);
+}
+
+.card-project {
+    height: 226px;
+    width: 364px;
+    border: 1px solid var();
+}
