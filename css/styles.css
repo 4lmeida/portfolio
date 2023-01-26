@@ -26,7 +26,7 @@ html, body {
 
 a, a:hover {
     text-decoration: none;
-    color: unset;
+    color: var(--font-text-white);
 }
 
 header {
@@ -58,6 +58,7 @@ nav h1 {
 
 nav span {
     color: var(--border-color-blue);
+    text-transform: lowercase;
 }
 
 li {
@@ -129,12 +130,11 @@ li {
 .lambda-logo {
     width: 400px;
     height: 400px;
-    filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
     position: absolute;
     right: 295px;
     top: 50%;
     transform: translate(0%, -50%);
-
+    filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
 }
 
 .four-logo {
@@ -144,6 +144,11 @@ li {
     right: 150px;
     top: 50%;
     transform: translate(0%, -50%);
+    background: linear-gradient(332deg, var(--background-color-primary) 0%, var(--border-color-blue) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .btn-resumo {
