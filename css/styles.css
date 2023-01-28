@@ -8,8 +8,10 @@
     --border-color-red-light: #e51d37
     --border-color-green: #a6fb98;
     --border-color-red: #ff3a5e;
+    --border-color-black:#101013;
 
     --font-text-white: #fff;
+    --font-text-gray-light:#d8d8d8;
 }
 
 * {
@@ -26,7 +28,7 @@ html, body {
 
 a, a:hover {
     text-decoration: none;
-    color: var(--font-text-white);
+    color: unset;
 }
 
 header {
@@ -63,7 +65,7 @@ nav span {
 
 li {
     font-size: 1.8rem;
-    color: var(--font-text-white);
+    color: var(--font-text-gray-light);
     font-weight: 400;
 }
 
@@ -120,7 +122,7 @@ li {
 
 .description-text {
     font-size: 1.6rem;
-    color: var(--font-text-white);
+    color: var(--font-text-gray-light);
     line-height: 140%;
     max-width: 500px;
     margin-bottom: 1rem;
@@ -161,38 +163,67 @@ li {
     margin-top: 32px;
     border-radius: 1rem;
 }
-
-.container-about {
-    display: flex;
+.btn-resumo a {
+    color: var(--font-text-white)
 }
 
-.content-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-profile {
-    width: 380px;
-    max-width: 100%;
-    height: auto;
-}
 
 #s-about {
     background-color: var(--backgronud-color-secundary);
     padding: 200px 0;
 }
 
-.content-about {
+.container-about {
+    background-color: var(--background-color-primary);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid var(--border-color-black);
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.content-img {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
+.img-profile {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.content-about {
+    padding: 0 12px;
+}
+
+
+
 .content-about h4 {
     font-size: 1.6rem;
+    color: var(--border-color-blue);
+    margin: 16px 0;
 }
 
 .content-about h2 {
     font-size: 3.6rem;
+    color: var(--font-text-white);
+    margin-bottom: 16px;
+}
+
+.content-about p {
+    color: var(--font-text-gray-light);
+    margin-bottom: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.02rem;
+    font-size: 1.6rem;
+    max-width: 500px;
 }
 
 #projects {
