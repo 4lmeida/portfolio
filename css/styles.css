@@ -226,8 +226,77 @@ li {
     max-width: 500px;
 }
 
-#projects {
+#s-skills {
+    padding: 96px 48px;
     background-color: var(--background-color-primary);
+
+
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 8px;
+}
+
+#skills-text {
+    min-height: 400px;
+    width: 50%;
+    
+}
+
+.my-stack {
+    font-size: 1.6rem;
+    color: var(--border-color-blue);
+    margin: 1.6rem 0;
+}
+
+#skills-text h2 {
+    color: var(--font-text-white);
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem
+}
+
+.skills-info {
+    font-size: 1.8rem;
+    color: var(--font-text-gray-light);
+}
+
+#skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#skills-cards > article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    background-color: var(--backgronud-color-secundary);
+    border: 1px solid var(--border-color-black);
+    border-radius: 4px;
+    width: 20%;
+    
+}
+
+article img {
+    width: 60px;
+    height: 60px;
+    filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
+}
+
+
+
+
+#projects {
+    background-color: var(--backgronud-color-secundary);
 }
 
 .card-project {
