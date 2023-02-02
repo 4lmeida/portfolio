@@ -6,7 +6,7 @@
 
     --border-color-blue: #00a3ff;
     --border-color-red-light: #e51d37
-    --border-color-green: #a6fb98;
+    --border-color-green: rgb(149 239 134);
     --border-color-red: #ff3a5e;
     --border-color-black:#101013;
 
@@ -283,6 +283,7 @@ li {
     border: 1px solid var(--border-color-black);
     border-radius: 4px;
     width: 20%;
+    flex-grow: 1;
     
 }
 
@@ -295,12 +296,56 @@ article img {
 
 
 
-#projects {
+#s-projects {
+    padding: 96px 48px;
     background-color: var(--backgronud-color-secundary);
 }
 
-.card-project {
-    height: 226px;
-    width: 364px;
-    border: 1px solid var();
+#projects {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#projects > article {
+    max-height: 226px;
+    max-width: 364px;
+    background-color: var(--background-color-primary);
+    padding: 32px;
+    margin: 8px;
+}
+
+#projects > article h3 {
+    font-size: 2.4rem;
+    color: var(--font-text-white);
+    font-weight: 500;
+}
+
+#projects > article p {
+    font-size: 1.8rem;
+    color: var(--font-text-gray-light);
+    margin: 2.4rem 0;
+    line-height: 3.2rem;
+
+}
+
+#projects > article a {
+    font-size: 2rem;
+    font-weight: 400;
+   
+}
+
+.color-red {
+    border: 1px solid var(--border-color-red);
+}
+
+.color-blue {
+    border: 1px solid var(--border-color-blue);
+}
+
+.color-green {
+    border: 1px solid rgb(149 239 134);
 }
