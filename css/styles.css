@@ -96,36 +96,27 @@ li {
 
 #home-cotainer-text {
     width: 100%;
-    max-width: 665px;
-}
-
-.small-text {
-    font-size: 1.6rem;
-    color: var(--border-color-blue);
-    margin-bottom: 1rem;
 }
 
 .title-text {
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--font-text-white);
+    line-height: 140%;
+    max-width: 650px;
+    
 }
 
-.aux-text {
-    font-size: 5rem;
-    color: var(--font-text-white);
-    margin: 1rem 0;
-}
-
-.aux-text span {
+.title-text span {
     color: var(--border-color-blue);
 }
 
 .description-text {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--font-text-gray-light);
-    line-height: 140%;
-    max-width: 500px;
-    margin-bottom: 1rem;
+    line-height: 160%;
+    max-width: 600px;
+    margin: 40px 0;
+    font-weight: 300;
 
 }
 
@@ -160,7 +151,6 @@ li {
     cursor: pointer;
     border: 1px solid var(--border-color-blue);
     padding: 1.6rem 3.2rem;
-    margin-top: 32px;
     border-radius: 1rem;
 }
 .btn-resumo a {
@@ -206,14 +196,20 @@ li {
 
 
 .content-about h4 {
-    font-size: 1.6rem;
+    font-size: 20px;
     color: var(--border-color-blue);
-    margin: 16px 0;
 }
 
 .content-about h2 {
-    font-size: 3.6rem;
+    font-size: 40px;
     color: var(--font-text-white);
+    margin: 16px 0;
+}
+
+.content-about h3 {
+    font-size: 18px;
+    color: var(--font-text-gray-light);
+    font-weight: 300;
     margin-bottom: 16px;
 }
 
@@ -248,7 +244,7 @@ li {
 }
 
 .my-stack {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--border-color-blue);
     margin: 1.6rem 0;
 }
@@ -303,7 +299,7 @@ article img {
 }
 
 #s-projects p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--border-color-blue);
     margin: 1.6rem 0;
 }
@@ -422,4 +418,24 @@ article img {
 #contact h2 {
     font-size: 3.6rem;
     color: var(--font-text-white);
+    margin: 16px 0;
+}
+
+#contact p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--font-text-gray-light);
+    max-width: 766px;
+}
+
+.btn-contact  {
+    padding: 1.6rem 2.4rem;
+    margin-top: 2rem;
+    border: 1px solid var(--border-color-blue);
+    border-radius: 5px;
+}
+
+.btn-contact a {
+    color: var(--border-color-blue);
+    font-size: 1.6rem;
 }
