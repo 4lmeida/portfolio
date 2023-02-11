@@ -92,6 +92,8 @@ li {
 #home {
     padding: 200px 0;
     display: flex;
+    align-items: center;
+    min-height: 90vh;
 }
 
 #home-cotainer-text {
@@ -327,6 +329,7 @@ article img {
     padding: 32px;
     margin: 8px;
     width: 100%;
+    height: auto;
 }
 
 #projects > article h3 {
@@ -338,8 +341,8 @@ article img {
 #projects > article p {
     font-size: 1.6rem;
     color: var(--font-text-gray-light);
-    margin: 2.4rem 0;
-    line-height: 3.2rem;
+    margin: 2rem 0;
+    line-height: 2.8rem;
 
 }
 
@@ -348,51 +351,27 @@ article img {
     font-weight: 400;  
 }
 
-.project-1 {
+.project-1, .project-4  {
     border: 1px solid var(--border-color-red);
 }
 
-.project-1  a {
+.project-1, .project-4 a {
     color: var(--border-color-red);
 }
 
-.project-2 {
+.project-2, .project-5  {
     border: 1px solid var(--border-color-blue);
 }
 
-.project-2 a {
+.project-2, .project-5 a {
     color: var(--border-color-blue);
 }
 
-.project-3 {
+.project-3, .project-6 {
     border: 1px solid rgb(149 239 134);
 }
 
-.project-3 a {
-    color: rgb(149 239 134);
-}
-
-.project-4 {
-    border: 1px solid var(--border-color-red);
-}
-
-.project-4  a {
-    color: var(--border-color-red);
-}
-
-.project-5 {
-    border: 1px solid var(--border-color-blue);
-}
-
-.project-5 a {
-    color: var(--border-color-blue);
-}
-
-.project-6 {
-    border: 1px solid rgb(149 239 134);
-}
-
-.project-6 a {
+.project-3, .project-6 a {
     color: rgb(149 239 134);
 }
 
