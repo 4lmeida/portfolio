@@ -262,6 +262,8 @@ li {
 .skills-info  {
     font-size: 1.8rem;
     color: var(--font-text-gray-light);
+    max-width: 500px;
+    line-height: 3.2rem;
 }
 
 #skills-cards {
@@ -293,7 +295,10 @@ article img {
     filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
 }
 
+#skills-cards > article:hover {
+    border: 1px solid var(--border-color-blue);
 
+}
 
 
 #s-projects {
