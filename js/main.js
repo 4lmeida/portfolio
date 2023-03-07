@@ -30,9 +30,33 @@ hoverChangeDescription(
 
 hoverChangeDescription(
     ".react",
-    ""
+    "O React é um biblioteca JavaScript que fornece uma estrutura de trabalho para criar interfaces para usuários."
 );
 
+hoverChangeDescription(
+    ".ts",
+    "O TypeScript é um superconjuto do JavaScript que adciona alguns recursos à linguagem do JavaScript, como tipagem estática, classes e interfaces."
+);
+
+hoverChangeDescription(
+    ".junit",
+    "O JUnit é a principal biblioteca do Java, ela facilita a  criação e manutenção do código para automação de testes de unidade."
+);
+
+hoverChangeDescription(
+    ".git",
+    "O Git é o principal sistema de controle de versões distribuído, sendo possível viajar entre as versões de maneira simples e rápido, podendo também criar e compartilhar repositórios."
+);
+
+hoverChangeDescription(
+    ".docker",
+    "Docker é uma plataforma que facilita a criação e administração de ambientes isolados. Ele possibilita empacotar uma aplicação ou ambiente dentro de um container."
+);
+
+hoverChangeDescription(
+    ".mockito",
+    "O Mockito é uma Framework que simula comportamentos de outra classe para que realize testes de métodos e suas dependências."
+);
 
 
 
