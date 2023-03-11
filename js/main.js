@@ -1,3 +1,5 @@
+import { hoverChangeDescription } from "./hoverChangeDescription.js";
+
 hoverChangeDescription(
     ".java",
     "Java é uma linguagem de programação originalmente orientada ao objeto que evoluiu para multi-paradigma. Ela é segura e confiável para codificar tudo, desde aplicações móveis, software empresarial e tecnologias do servidor."
@@ -60,14 +62,3 @@ hoverChangeDescription(
 
 
 
-function hoverChangeDescription(nameCard, text) {
-    var changeDescription = document.querySelector(".changeDescription");
-
-    document.querySelector(nameCard).addEventListener("mouseover", () => {
-    changeDescription.innerHTML = text;
-    });
-
-    document.querySelector(nameCard).addEventListener("mouseout", () => {
-    changeDescription.innerHTML = `*passe o cursor do mouse no card para ler*`;
-    });
-}

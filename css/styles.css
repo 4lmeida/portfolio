@@ -26,7 +26,7 @@ html, body {
     font-size: 62.5%;
 }
 
-a, a:hover {
+a {
     text-decoration: none;
     color: unset;
 }
@@ -34,7 +34,7 @@ a, a:hover {
 header {
     background-color: var(--backgronud-color-secundary);
     color: var(--font-text-one);
-    border-bottom: 1px solid var(--background-color-primary);
+    border-bottom: 1px solid var(--border-color-black);
     width: 100%;
     padding: 0 50px;
     position: fixed;
@@ -154,11 +154,6 @@ li {
     border: 1px solid var(--border-color-blue);
     padding: 1.6rem 3.2rem;
     border-radius: 1rem;
-}
-.btn-resumo a {
-    color: var(--font-text-white);
-    
-    
 }
 
 
@@ -424,6 +419,12 @@ article img {
 .btn-contact a {
     color: var(--border-color-blue);
     font-size: 1.6rem;
+}
+
+.btn-contact a:hover {
+    color: var(--font-text-white);
+    
+    
 }
 
 .social-media  {
