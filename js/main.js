@@ -11,8 +11,8 @@ hoverChangeDescription(
 );
 
 hoverChangeDescription(
-    ".postegresql",
-    "O PostegreSQL é um sistema gerenciador de banco de dados objeto relacional e hoje ele é um dos SGBDs de código aberto mais avançados."
+    ".postgresql",
+    "O PostgreSQL é um sistema gerenciador de banco de dados objeto relacional e hoje ele é um dos SGBDs de código aberto mais avançados."
 );
 
 hoverChangeDescription(

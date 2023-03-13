@@ -126,7 +126,7 @@ li {
     width: 400px;
     height: 400px;
     position: absolute;
-    right: 295px;
+    right: 125px;
     top: 50%;
     transform: translate(0%, -50%);
     filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
@@ -136,7 +136,7 @@ li {
     color: var(--border-color-blue);
     font-size: 55rem;
     position: absolute;
-    right: 150px;
+    right: -15px;
     top: 50%;
     transform: translate(0%, -50%);
     background: linear-gradient(332deg, var(--background-color-primary) 0%, var(--border-color-blue) 100%);
