@@ -123,6 +123,7 @@ li {
 }
 
 .lambda-logo {
+    display: block;
     width: 400px;
     height: 400px;
     position: absolute;
@@ -133,6 +134,7 @@ li {
 }
 
 .four-logo {
+    display: block;
     color: var(--border-color-blue);
     font-size: 55rem;
     position: absolute;
@@ -150,10 +152,13 @@ li {
     display: inline-block;
     font-size: 1.6rem;
     color: var(--border-color-blue);
-    cursor: pointer;
     border: 1px solid var(--border-color-blue);
     padding: 1.6rem 3.2rem;
     border-radius: 1rem;
+}
+
+.btn-resumo a:hover {
+    color: var(--font-text-white);
 }
 
 
@@ -351,8 +356,16 @@ article img {
     font-weight: 400;  
 }
 
+#projects a:hover {
+    font-size: 2.05rem;
+    -webkit-transition: font-size 0.5s;
+    transition:  font-size 0.5s;
+}
+
+
 .project-1, .project-4  {
     border: 1px solid var(--border-color-red);
+    
 }
 
 .project-1, .project-4 a {
@@ -379,6 +392,12 @@ article img {
     font-size: 2rem;
     font-weight: 400;
     color: var(--border-color-blue);
+}
+
+.link-repository a:hover {
+    font-size: 2.05rem;
+    -webkit-transition: font-size 0.5s;
+    transition:  font-size 0.5s;
 }
 
 
@@ -469,6 +488,8 @@ article img {
     
 }
 
+
+
 .social-media > ul::after {
     content: "";
     display: block;
@@ -508,4 +529,25 @@ footer img {
     width: 32px;
     height: auto;
     display: block;
+}
+
+
+@media (max-width: 1200px) {
+    .lambda-logo, .four-logo {
+        display: none;
+    }
+
+    #s-about {
+        padding: 72px 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    #home-cotainer-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
 }
