@@ -178,7 +178,7 @@ li {
 }
 
 .content-img {
-    width: 500px;
+    max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,7 +187,6 @@ li {
 
 .img-profile {
     width: 400px;
-    max-width: 100%;
     height: auto;
     border-radius: 10px;
     padding: 5px;
@@ -559,6 +558,28 @@ footer img {
         flex-basis: calc(50% - 20px );
     }
 
+    footer .grid-layout {
+        padding: 0 20px;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .img-profile {
+        width: 100%;
+    }
+
+    .container-about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container-about h4 {
+        margin-top: 10px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -575,14 +596,26 @@ footer img {
         text-align: center;
     }
 
-    .container-about {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+    .social-media-contact {
+        background-color: var(--backgronud-color-secundary);
+        border: 2px solid var(--border-color-black);
+        border-radius: 6px;
+        padding: 16px;
     }
 
-    .container-about h4 {
-        margin-top: 10px;
+    .social-media-contact > ul {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .social-media-contact li img {
+        width: 32px;
+    }
+
+
+    .nav-list {
+        display: none;
     }
 
 
@@ -601,5 +634,13 @@ footer img {
 
     #skills-cards > article {
         width: 40%;
+    }
+
+    #projects > article {
+        flex-basis: calc(100% - 20px );
+    }
+
+    .img-profile {
+        
     }
 }
