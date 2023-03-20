@@ -127,7 +127,7 @@ li {
     width: 400px;
     height: 400px;
     position: absolute;
-    right: 125px;
+    right: 140px;
     top: 50%;
     transform: translate(0%, -50%);
     filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
@@ -138,7 +138,7 @@ li {
     color: var(--border-color-blue);
     font-size: 55rem;
     position: absolute;
-    right: -15px;
+    right: 0px;
     top: 50%;
     transform: translate(0%, -50%);
     background: linear-gradient(332deg, var(--background-color-primary) 0%, var(--border-color-blue) 100%);
@@ -501,6 +501,10 @@ article img {
     background-color: var(--border-color-blue)
 }
 
+.social-media-contact {
+    display: none;
+}
+
 footer {
     width: 100%;
     height: auto;
@@ -580,6 +584,34 @@ footer img {
         margin-top: 10px;
     }
 
+    .social-media-contact  {
+        display: flex;
+
+        margin-top: 32px;
+
+    }
+
+    .social-media-contact a {
+        background-color: var(--backgronud-color-secundary);
+        border: 2px solid var(--border-color-black);
+        border-radius: 6px;
+        padding: 16px;
+    }
+
+    .social-media-contact ul {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        list-style: none;
+
+    }
+
+    .social-media-contact li img {
+        width: 32px;
+        
+        filter: invert(46%) sepia(55%) saturate(2180%) hue-rotate(174deg) brightness(98%) contrast(108%);
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -596,22 +628,7 @@ footer img {
         text-align: center;
     }
 
-    .social-media-contact {
-        background-color: var(--backgronud-color-secundary);
-        border: 2px solid var(--border-color-black);
-        border-radius: 6px;
-        padding: 16px;
-    }
 
-    .social-media-contact > ul {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-    }
-
-    .social-media-contact li img {
-        width: 32px;
-    }
 
 
     .nav-list {
@@ -640,7 +657,4 @@ footer img {
         flex-basis: calc(100% - 20px );
     }
 
-    .img-profile {
-        
-    }
 }
