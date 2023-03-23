@@ -1,4 +1,16 @@
 import { hoverChangeDescription } from "./hoverChangeDescription.js";
+import { menu } from "./menu.js";
+
+//menu();
+
+const btnMobile = document.querySelector('.mobile-menu');
+
+function toggleMenu()  {
+    const mobileMenu = document.querySelector('.nav-list');
+    mobileMenu.classList.toggle('active');
+}
+
+btnMobile.addEventListener('click', toggleMenu);
 
 hoverChangeDescription(
     ".java",
