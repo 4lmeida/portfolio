@@ -6,8 +6,11 @@ import { menu } from "./menu.js";
 const btnMobile = document.querySelector('.mobile-menu');
 
 function toggleMenu()  {
-    const mobileMenu = document.querySelector('.nav-list');
+    const navList = document.querySelector('.nav-list');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    navList.classList.toggle('active');
     mobileMenu.classList.toggle('active');
+    
 }
 
 btnMobile.addEventListener('click', toggleMenu);
