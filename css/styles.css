@@ -642,10 +642,6 @@ footer img {
         text-align: center;
     }
 
- 
-    
-
-
     .nav-list {
         text-align: center;
         position: absolute;
@@ -684,9 +680,13 @@ footer img {
 
     .mobile-menu {
         display: block;
-        cursor: pointer;
-        
-        
+        cursor: pointer;   
+        background: none;
+        border: none;
+    }
+
+    .mobile-menu div {
+        transition: .4s;
     }
 
     .mobile-menu.active div.line1 {
@@ -699,7 +699,7 @@ footer img {
     }
     
     .mobile-menu.active div.line3 {
-        transform: rotate(45deg) translate(-5px, 5px);
+        transform: rotate(45deg) translate(-5px, -5px);
     }
 
 
