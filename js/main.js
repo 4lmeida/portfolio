@@ -1,7 +1,6 @@
 import { hoverChangeDescription } from "./hoverChangeDescription.js";
 import { toggleMenu } from "./toggleMenu.js";
 
-toggleMenu();
 
 hoverChangeDescription(
     ".java",
@@ -10,7 +9,7 @@ hoverChangeDescription(
 
 hoverChangeDescription(
     ".spring",
-    "O Spring é uma das framework mais popular do mundo quando falamos de Java. Ela otimiza otrabalho de desenvolvimento tornando a  programação java mais rápida, fácil e segura."
+    "O Spring é uma das framework mais popular do mundo quando falamos de Java. Ela otimiza o trabalho de desenvolvimento tornando a  programação java mais rápida, fácil e segura."
 );
 
 hoverChangeDescription(
@@ -64,4 +63,4 @@ hoverChangeDescription(
 );
 
 
-
+toggleMenu();
