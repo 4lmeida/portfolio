@@ -31,6 +31,8 @@ a {
     color: unset;
 }
 
+/*------------ HEADER-----------------------*/
+
 header {
     background-color: var(--backgronud-color-secundary);
     color: var(--font-text-one);
@@ -83,7 +85,7 @@ li {
     margin-left: 48px;
 }
 
-
+/*------------ HOME-----------------------*/
 
 #s-home{
     background-color: var(--backgronud-color-secundary);
@@ -175,6 +177,7 @@ li {
     color: var(--font-text-white);
 }
 
+/*------------ ABOUT-----------------------*/
 
 #s-about {
     background-color: var(--backgronud-color-secundary);
@@ -239,6 +242,8 @@ li {
     max-width: 500px;
 }
 
+/*------------ SKILLS-----------------------*/
+
 #s-skills {
     padding: 96px 48px;
     background-color: var(--background-color-primary);
@@ -270,6 +275,10 @@ li {
     color: var(--font-text-white);
     font-size: 3.6rem;
     margin-bottom: 3.2rem
+}
+
+#skills-text h2 > span {
+    color: var(--border-color-blue);
 }
 
 .skills-info  {
@@ -315,6 +324,8 @@ article img {
 
 }
 
+/*------------ PPROJECTS-----------------------*/
+
 
 #s-projects {
     padding: 96px 48px;
@@ -331,6 +342,10 @@ article img {
 #s-projects h2 {
     font-size: 4rem;
     color: var(--font-text-white);
+}
+
+#s-projects h2 span{
+    color: var(--border-color-blue);
 }
 
 #projects {
@@ -415,7 +430,7 @@ article img {
     transition:  font-size 0.5s;
 }
 
-
+/*------------ CONTACT-----------------------*/
 
 #s-contact {
     background-color: var(--background-color-primary);
@@ -434,6 +449,10 @@ article img {
     font-size: 3.6rem;
     color: var(--font-text-white);
     margin: 16px 0;
+}
+
+#contact h2 span {
+    color: var(--border-color-blue);
 }
 
 #contact p {
@@ -518,6 +537,8 @@ article img {
 .social-media-contact {
     display: none;
 }
+
+/*------------ FOOTER-----------------------*/
 
 footer {
     width: 100%;

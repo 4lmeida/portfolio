@@ -20,9 +20,9 @@
 
 ## Layout :mag_right:
 
-![](/assets/layout-my-site.png)
+![](/assets/portfolio.gif)
 
-<h4 align="center"><a href=""></a></h4>
+<h4 align="center"><a href="https://l4meida.netlify.app">Clique para ver o portfólio</a></h4>
 
 ## Tecnologias utilizadas :books:
 
@@ -32,7 +32,7 @@
 
 ## Tarefas em aberto
 
-:memo: Responsividade,
+:memo: 
 
 
 # Autor
@@ -42,6 +42,6 @@
 
 ## Licença 
 
-The [MIT License]()(MIT)
+The [MIT License](/LICENSE)(MIT)
 
 Copyright :copyright: 2023 - portfólio λ4
