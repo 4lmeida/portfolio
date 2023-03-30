@@ -1,10 +1,10 @@
 <h1 align="center">Portfólio λ4</h1>
 
 <p align="center">
-  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=RED&style=for-the-badge"/>
 </p>
 
-> Status do Projeto: :warning: (em desenvolvimento)
+> Status do Projeto: :warning: (Concluído)
 
 # Sobre o portfólio :open_file_folder:
 
@@ -29,11 +29,6 @@
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-
-## Tarefas em aberto
-
-:memo: 
-
 
 # Autor
 
