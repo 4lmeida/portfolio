@@ -1,14 +1,16 @@
 export function toggleMenu(event) {
-  if (event.type === "touchstart") event.preventDefault();
+  if (event.type === "touchstart") {
+    event.preventDefault();
+  }
 
   const navList = document.querySelector(".nav-list");
   const mobileMenu = document.querySelector(".mobile-menu");
-  
+
 
   navList.classList.toggle("active");
   mobileMenu.classList.toggle("active");
-  li.classList.remove("active");
   
+ 
 
   const active = mobileMenu.classList.contains("active");
   event.currentTarget.setAttribute("aria-expanded", active);
@@ -26,10 +28,9 @@ const btnMobile = document.querySelector(".mobile-menu");
 
 const li = document.querySelectorAll('li');
 
-
-
 li.forEach((item) => {
   item.addEventListener('click', toggleMenu)
 });
+
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
