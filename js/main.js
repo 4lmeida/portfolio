@@ -1,3 +1,4 @@
+import { hoverChangeTraining } from "./hoverChangeTraining.js";
 import { hoverChangeDescription } from "./hoverChangeDescription.js";
 import { toggleMenu } from "./toggleMenu.js";
 
@@ -60,6 +61,18 @@ hoverChangeDescription(
 hoverChangeDescription(
     ".mockito",
     "O Mockito é uma Framework que simula comportamentos de outra classe para que realize testes de métodos e suas dependências."
+);
+
+hoverChangeTraining (
+    ".OracleNextEducation",
+    `Trabalhei como instrutor conteudista em frontend na
+    Digital House, o trabalho consistia em criar conteúdos para as
+    aulas de especialização frontend. Alguns temas dos conteúdos
+    realizados foram: React, Redux, TypeScript, Testes,
+    GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
+    "back-end",
+    "Oracle Next Education",
+    "Nov 2022 - Jun 2023 (7 meses)"
 );
 
 

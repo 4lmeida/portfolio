@@ -284,6 +284,41 @@ li {
     width: 75%;
 }
 
+.text-training  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-training  h5 {
+    font-size: 2rem;
+    margin: 32px 0px;
+    font-weight: 500;
+    color: var(--border-color-blue);
+} 
+
+.text-training  p {
+    font-size: 2rem;
+    line-height: 140%;
+    font-weight: 300;
+    color: var(--font-text-gray-light);
+} 
+
+.text-training > div h4 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.text-training > div p {
+    font-size: 1.8rem;
+    color: var(--font-text-gray-light);
+}
+
+.activeTraining  {
+    border-left: 4px soli var(--border-color-blue);
+    color: var(--border-color-blue);
+}
+
 /*------------ SKILLS-----------------------*/
 
 #s-skills {
