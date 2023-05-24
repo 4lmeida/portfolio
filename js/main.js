@@ -70,10 +70,26 @@ hoverChangeTraining (
     aulas de especialização frontend. Alguns temas dos conteúdos
     realizados foram: React, Redux, TypeScript, Testes,
     GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
-    "back-end",
     "Oracle Next Education",
-    "Nov 2022 - Jun 2023 (7 meses)"
+    "Back-End",   
+    "Nov 2022 - Jun 2023 (320 horas)"
 );
 
+hoverChangeTraining (
+    ".devsuperiorspring",
+    `Durante o treinamento alguns módulos do spring e fundamentos  `,
+    "DevSuperior",
+    "Bootcamp Spring",   
+    "Nov 2022 - Abr 2023 (160 horas)"
+);
+
+hoverChangeTraining (
+    ".devsuperiorfmd",
+    `Curso profissionalizante focado nos fundamentos da programação e na criação de aplicações Web completas, do back-end ao front-end. Ao longo da formação  obtive as seguintes competências: Lógica de programação,
+     Git e Github, HTML e CSS, Programação Moderna, Banco de Dados, Análise de Sistemas, Ambiente de Desenvolvimento, Back End, JavaScript, Front end.`,
+    "DevSuperior",
+    "Formação Deseenvolvedor Moderno",
+    "Jan 2022 - Dez 2022 (650 horas)"
+);
 
 toggleMenu();

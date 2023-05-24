@@ -272,6 +272,7 @@ li {
 .option-training > div h3 {
     font-size: 1.8rem;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .option-training {
@@ -315,7 +316,7 @@ li {
 }
 
 .activeTraining  {
-    border-left: 4px soli var(--border-color-blue);
+    border-left: 4px solid var(--border-color-blue);
     color: var(--border-color-blue);
 }
 
