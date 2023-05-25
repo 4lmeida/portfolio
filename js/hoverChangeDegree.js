@@ -1,4 +1,4 @@
-export function hoverChangeTraining(nameCard, description, curse, school, date) {
+export function hoverChangeDegree(nameCard, description, curse, school, date) {
     
     const varDescription = document.querySelector(".description");
     const varCurse = document.querySelector(".curse");
@@ -12,14 +12,14 @@ export function hoverChangeTraining(nameCard, description, curse, school, date) 
         varDate.innerHTML = date;
     });
 
-    const header = document.getElementById("training-institution");
+    const header = document.getElementById("degree-institution");
     const btns = header.getElementsByClassName("institution");
 
     for (let i = 0; i < btns.length; i++) {
         btns[i].addEventListener("click", function () {
-            const current = document.getElementsByClassName("activeTraining");
-            current[0].className = current[0].className.replace(" activeTraining", "");
-            this.className += " activeTraining";
+            const current = document.getElementsByClassName("activeDegree");
+            current[0].className = current[0].className.replace(" activeDegree", "");
+            this.className += " activeDegree";
         })
     }
 }

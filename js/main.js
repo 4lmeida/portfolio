@@ -1,4 +1,4 @@
-import { hoverChangeTraining } from "./hoverChangeTraining.js";
+import { hoverChangeDegree } from "./hoverChangeDegree.js";
 import { hoverChangeDescription } from "./hoverChangeDescription.js";
 import { toggleMenu } from "./toggleMenu.js";
 
@@ -63,7 +63,7 @@ hoverChangeDescription(
     "O Mockito é uma Framework que simula comportamentos de outra classe para que realize testes de métodos e suas dependências."
 );
 
-hoverChangeTraining (
+hoverChangeDegree (
     ".OracleNextEducation",
     `Trabalhei como instrutor conteudista em frontend na
     Digital House, o trabalho consistia em criar conteúdos para as
@@ -75,7 +75,7 @@ hoverChangeTraining (
     "Nov 2022 - Jun 2023 (320 horas)"
 );
 
-hoverChangeTraining (
+hoverChangeDegree (
     ".devsuperiorspring",
     `Durante o treinamento alguns módulos do spring e fundamentos  `,
     "DevSuperior",
@@ -83,10 +83,10 @@ hoverChangeTraining (
     "Nov 2022 - Abr 2023 (160 horas)"
 );
 
-hoverChangeTraining (
+hoverChangeDegree (
     ".devsuperiorfmd",
     `Curso profissionalizante focado nos fundamentos da programação e na criação de aplicações Web completas, do back-end ao front-end. Ao longo da formação  obtive as seguintes competências: Lógica de programação,
-     Git e Github, HTML e CSS, Programação Moderna, Banco de Dados, Análise de Sistemas, Ambiente de Desenvolvimento, Back End, JavaScript, Front end.`,
+     Git e Github, HTML e CSS, Programação Moderna, Banco de Dados, Análise de Sistemas, Ambiente de Desenvolvimento, Back End, JavaScript e Front end.`,
     "DevSuperior",
     "Formação Deseenvolvedor Moderno",
     "Jan 2022 - Dez 2022 (650 horas)"

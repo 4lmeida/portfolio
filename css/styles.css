@@ -11,7 +11,25 @@
     --border-color-black:#101013;
 
     --font-text-white: #fff;
-    --font-text-gray-light:#d8d8d8;
+    --font-text-gray-light:#9ca3af;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--border-color-blue);
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::selection {
+    background-color: var(--border-color-blue);
+    color: var(--font-text-white);
+}
+
+::-webkit-scrollbar-track  {
+    background-color: #111;
 }
 
 * {
@@ -60,6 +78,10 @@ nav h1 {
     text-transform: uppercase;
 }
 
+nav a:hover{
+    color: var(--font-text-white);
+}
+
 nav span {
     color: var(--border-color-blue);
     text-transform: lowercase;
@@ -79,6 +101,8 @@ li {
 .nav-list {
     display: flex;
 }
+
+
 
 .nav-list li {
     list-style-type: none;
@@ -243,79 +267,89 @@ li {
 }
 
 
-/*------------ TRAINING-----------------------*/
+/*------------ DEGREE-----------------------*/
 
-#s-training {
+#s-degree {
     padding: 96px 48px;
     background-color: var(--background-color-primary);
     color: var(--font-text-white);
 }
 
-#s-training .grid-layout h2 {
-    padding-bottom: 24px;
-    font-size: 4rem;
-    font-weight: 500;
+.specialization {
+    font-size: 2rem;
+    color: var(--border-color-blue);
+    margin: 1.6rem 0;
 }
 
-.training {
+#s-degree .grid-layout h2 {
+    padding-bottom: 24px;
+    color: var(--font-text-white);
+    font-size: 3.6rem;
+}
+
+#s-degree .grid-layout span {
+    color: var(--border-color-blue);
+}
+
+.degree {
     margin-top: 32px;
     display: flex;
     gap:  40px;
 }
 
-.option-training > div {
+.option-degree > div {
     padding: 24px 32px;
     text-align: left;
     background-color: var(--backgronud-color-secundary);
 }
 
-.option-training > div h3 {
+.option-degree > div h3 {
     font-size: 1.8rem;
     font-weight: 400;
     cursor: pointer;
 }
 
-.option-training {
+.option-degree {
     display: flex;
     width: 25%;
     flex-direction: column;
 }
 
-.text-training {
+.text-degree {
     width: 75%;
 }
 
-.text-training  div {
+.text-degree div {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.text-training  h5 {
+.text-degree  h5 {
     font-size: 2rem;
     margin: 32px 0px;
     font-weight: 500;
     color: var(--border-color-blue);
 } 
 
-.text-training  p {
-    font-size: 2rem;
-    line-height: 140%;
+.text-degree  p {
+    font-size: 1.8rem;
+    line-height: 160%;
     font-weight: 300;
     color: var(--font-text-gray-light);
 } 
 
-.text-training > div h4 {
+.text-degree > div h4 {
     font-size: 2.4rem;
     font-weight: 400;
 }
 
-.text-training > div p {
+.text-degree > div p {
     font-size: 1.8rem;
     color: var(--font-text-gray-light);
 }
 
-.activeTraining  {
+.activeDegree  {
     border-left: 4px solid var(--border-color-blue);
     color: var(--border-color-blue);
 }
@@ -657,6 +691,23 @@ footer img {
 
     #s-about {
         padding: 72px 20px;
+    }
+
+    .degree {
+        flex-wrap: wrap;
+    }
+
+    .option-degree {
+        width: 100%;
+    }
+    
+    .text-degree {
+        width: 100%;
+    }
+
+    .text-degree div {
+        flex-wrap: wrap;
+        gap: 32px;
     }
 
     #skills {
