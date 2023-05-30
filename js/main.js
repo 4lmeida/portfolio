@@ -65,19 +65,17 @@ hoverChangeDescription(
 
 hoverChangeDegree (
     ".OracleNextEducation",
-    `Trabalhei como instrutor conteudista em frontend na
-    Digital House, o trabalho consistia em criar conteúdos para as
-    aulas de especialização frontend. Alguns temas dos conteúdos
-    realizados foram: React, Redux, TypeScript, Testes,
-    GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
+    `O programa ONE é uma formação com hard e soft skills, visando a capacitação completa com teória e prática aplicadas ao mercado. Algumas formações adquiridas ao longo do programa: Iniciante em Programação, Desenvolvimento Pessoal,
+    Business Agility, Java e Orientação a Objetos, Java e Spring Boot, e Empreendedorismo.`,
     "Oracle Next Education",
     "Back-End",   
-    "Nov 2022 - Jun 2023 (320 horas)"
+    "Nov 2022 - Jun 2023 (338 horas)"
 );
 
 hoverChangeDegree (
     ".devsuperiorspring",
-    `Durante o treinamento alguns módulos do spring e fundamentos  `,
+    `Durante o treinamento foram entregue e validados projetos com as tecnologias java e spring, implementando alguns módulos do próprio spring com a parte de segurança, validação, testes automatizados e persistência de dados. Portanto 
+    desenvolvendo apricações web completas e robustas.`,
     "DevSuperior",
     "Bootcamp Spring",   
     "Nov 2022 - Abr 2023 (160 horas)"
@@ -85,10 +83,10 @@ hoverChangeDegree (
 
 hoverChangeDegree (
     ".devsuperiorfmd",
-    `Curso profissionalizante focado nos fundamentos da programação e na criação de aplicações Web completas, do back-end ao front-end. Ao longo da formação  obtive as seguintes competências: Lógica de programação,
-     Git e Github, HTML e CSS, Programação Moderna, Banco de Dados, Análise de Sistemas, Ambiente de Desenvolvimento, Back End, JavaScript e Front end.`,
+    `Curso profissionalizante focado nos fundamentos da programação e na criação prática de aplicações Web completas, do back-end ao front-end. Ao longo da formação  obtive as seguintes competências: Lógica de programação,
+     Git e Github, HTML e CSS, Programação Moderna(POO), Banco de Dados, Análise de Sistemas, Ambiente de Desenvolvimento, Back-end(Spring), JavaScript e Front-end(React).`,
     "DevSuperior",
-    "Formação Deseenvolvedor Moderno",
+    "Formação Desenvolvedor Moderno",
     "Jan 2022 - Dez 2022 (650 horas)"
 );
 
