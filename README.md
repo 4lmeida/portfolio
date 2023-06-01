@@ -8,9 +8,10 @@
 
 # Sobre o portfólio :open_file_folder:
 
- É um site dividido em cinco seções:
+ É um site dividido em seis seções:
  - **Home:** Uma breve apresentação;
  - **Quem sou:** Nessa seção me descrevo brevemente;
+ - **Formações:** Alguns cursos e formações que obtive ao longo da jornada de DEV;
  - **Conhecimentos** Apresento  minhas  habilidades e conhecimentos em algumas tecnologias;
  - **Projetos** Introduzo alguns projetos e aplicações desenvolvidos dentro da  plataforma  do GitHub;
  - **Contato** Nele está meu contato via email e mídia social; 
