@@ -39,7 +39,7 @@ hoverChangeDescription(
 
 hoverChangeDescription(
   ".ts",
-  "O TypeScript é um superconjuto do JavaScript que adciona alguns recursos à linguagem do JavaScript, como tipagem estática, classes e interfaces."
+  "O TypeScript é um superconjunto do JavaScript que adiciona alguns recursos à linguagem do JavaScript, como tipagem estática, classes e interfaces."
 );
 
 hoverChangeDescription(
@@ -72,7 +72,7 @@ hoverChangeDegree(
 
 hoverChangeDegree(
   ".OracleNextEducation",
-  `O programa ONE é uma formação com hard e soft skills, visando a capacitação completa com teória e prática aplicadas ao mercado. Algumas formações adquiridas ao longo do programa: Iniciante em Programação, Desenvolvimento Pessoal,
+  `O programa ONE é uma formação com hard e soft skills, visando a capacitação completa com teoria e prática aplicadas ao mercado. Algumas formações adquiridas ao longo do programa: Iniciante em Programação, Desenvolvimento Pessoal,
     Business Agility, Java e Orientação a Objetos, Java e Spring Boot, e Empreendedorismo.`,
   "Oracle Next Education",
   "Back-End",
@@ -82,7 +82,7 @@ hoverChangeDegree(
 hoverChangeDegree(
   ".devsuperiorspring",
   `Durante o treinamento foram entregue e validados projetos com as tecnologias java e spring, implementando alguns módulos do próprio spring com a parte de segurança, validação, testes automatizados e persistência de dados. Portanto 
-    desenvolvendo apricações web completas e robustas.`,
+    desenvolvendo aplicações web completas e robustas.`,
   "DevSuperior",
   "Bootcamp Spring",
   "Nov 2022 - Abr 2023 (160 horas)"
